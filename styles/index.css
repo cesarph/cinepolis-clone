@@ -1,0 +1,76 @@
+
+select {
+  max-width: 200px;
+}
+
+.title {
+text-align:center;
+  background: #2d5faf;
+  margin-top: -10px;
+}
+.title > h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 3px;
+  display: inline-block;
+}
+
+.title > img {
+  margin-top: -15px;
+
+}
+
+.form-title {
+  /*background: #333438;*/
+  background: #1e4a91;
+  max-width: 350px;
+  padding: 10px;
+}
+
+.form-title h3{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.container-select {
+  border: 1px solid #000;
+  background: white;
+}
+
+body{
+    background: url("../imgs/justice-league.jpg") no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.container-form {
+  float: right;
+  margin: 60px auto;
+  width: 80%;
+  max-width: 350px;
+  padding: 30px;
+}
+
+.form-group {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.btn-primary {
+  max-width: 100px;
+  background: #1e4a91;
+}
+.btn-primary:hover {
+  background: #23529d;
+}
